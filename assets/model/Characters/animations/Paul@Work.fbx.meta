@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1b48ec02-bded-45a4-8271-a32cd357ade2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "fddb9": {
+      "importer": "gltf-animation",
+      "uuid": "1b48ec02-bded-45a4-8271-a32cd357ade2@fddb9",
+      "displayName": "",
+      "id": "fddb9",
+      "name": "Work.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2571d": {
+      "importer": "gltf-scene",
+      "uuid": "1b48ec02-bded-45a4-8271-a32cd357ade2@2571d",
+      "displayName": "",
+      "id": "2571d",
+      "name": "Paul@Work.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Work",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2,
+            "previousId": "fddb9"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1b48ec02-bded-45a4-8271-a32cd357ade2@2571d"
+      ]
+    }
+  }
+}

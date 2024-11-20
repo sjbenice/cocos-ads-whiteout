@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e4389e10-aa23-4d6e-adaa-86b53fea5b0b",
+  "files": [],
+  "subMetas": {
+    "61297": {
+      "importer": "gltf-material",
+      "uuid": "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@61297",
+      "displayName": "",
+      "id": "61297",
+      "name": "BarnBeam.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f084": {
+      "importer": "gltf-mesh",
+      "uuid": "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@6f084",
+      "displayName": "",
+      "id": "6f084",
+      "name": "Barn_chicken_2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 46
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f3bf": {
+      "importer": "gltf-scene",
+      "uuid": "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@8f3bf",
+      "displayName": "",
+      "id": "8f3bf",
+      "name": "beam.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@6f084"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@61297"
+      ],
+      "scenes": [
+        "e4389e10-aa23-4d6e-adaa-86b53fea5b0b@8f3bf"
+      ]
+    }
+  }
+}
